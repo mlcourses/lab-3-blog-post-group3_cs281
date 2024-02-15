@@ -1,11 +1,19 @@
-# Lab X: Doing stuff with hardware!
+# Lab 3 - Analog-Digital Intersection: Crafting a 7-Segment Ramp Circuit
 
-Please write a blog post describing your lab here.
-
-This is just an example of how you might structure your blog post, feel free to edit as you wish. For example, you might divide the lab into different sections each with their own intro, instructions, results, and takeaways. Please see the rubric for details on how the post will be evaluated.
 
 ## Overview and Motivation
-This week we'll explore...
+In this week's lab, we will use an analog input to display a number on a 7-segment display. A 7-segment display contains 7 leds that are arranged to form a number. We will design and build a more complex combinational circuit to display a number corresponding to an analog input. Given the complexity of this circuit, we will use K-maps in order to minimize our circuit expressions so it will be simpler for us to build the circuits that will help us perform the 7-segment using analog input.
+
+**Main goal**: Build a combinational circuit to perform the 7-segment. The digital signal will be a decimal value between 0 and 5 inclusive.
+
+This is the circuit overview
+
+
+
+To achieve this goal, we will use the voltage divider.
+
+
+
 
 ## Materials
 

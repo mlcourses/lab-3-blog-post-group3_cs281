@@ -1,4 +1,4 @@
-# Lab 3 - Analog-Digital Intersection: Crafting a 7-Segment Ramp Circuit
+# Lab 3: Crafting a 7-Segment Ramp Circuit
 
 
 ## Overview and Motivation
@@ -12,10 +12,19 @@ This is the circuit overview
 
 To achieve this goal, we will use the voltage divider.
 
-
-
-
 ## Materials
+
+- PB-503 breadboard
+- 7-segment display
+- Wires
+- Arduino kit
+- Arduino controller with the USB adapter
+- Computer for the Arduino IDE
+- 7404 chip (NOT gate)
+- 7408 chip (AND gate)
+- 7432 chip (OR gate)
+- 7486 chip (XOR gate)
+
 
 ## Project Steps
 

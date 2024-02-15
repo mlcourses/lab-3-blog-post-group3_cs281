@@ -8,7 +8,7 @@ In this week's lab, we will use an analog input to display a number on a 7-segme
 
 This is the circuit overview
 
-
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/circuit%20overview.png" alt="alt text" width="550"/> 
 
 To achieve this goal, we will use the voltage divider.
 

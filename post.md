@@ -104,9 +104,11 @@ We are now ready to wire our 7-segment display. We will start by wire the **LED 
 
 Using this truth table:
 
-
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/IMG_7724.jpg" alt="alt text" width="550"/> 
 
 We were able to build the following circuit:
+
+
 
 
 

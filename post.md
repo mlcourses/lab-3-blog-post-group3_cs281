@@ -98,9 +98,11 @@ The above code:
 
 Load the program and test your circuit.
 
-### Step 2 - Wiring the 7-segment display 
+### Step 2: Wiring the 7-segment display - LED B
 
 We are now ready to wire our 7-segment display. We will start by wire the **LED B** first, and we will wire each LED as we go along the way through each step.
+
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/7-segment.png" alt="alt text" width="450"/> 
 
 Using this truth table:
 
@@ -110,6 +112,11 @@ We were able to build the following circuit:
 
 <img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/D15A342E-E1D0-4C78-B1C1-B332B5DAC9EA.JPG" alt="alt text" width="550"/> 
 
+To determine the SOP (Sum of Products) expression necessary for lighting up LED B, we utilized K-Maps for each LED. Below, you will find the K-Map and the resulting SOP expression to activate LED B:
+
+LED B = B2 + B0
+
+As such, we will need a 7404 inverter for the NOT gate and one 7432 chip for the OR gate.
 
 
 

@@ -38,7 +38,7 @@ By choosing our two resistance values, we can pick any voltage V that we desire.
 
 Using the concept of a voltage divider, a potentiometer (“pot”) is a variable resistor that allows us to fine tune our voltage divider. Like the image below, the potentiometer allows us to vary the values of `R1` and `R2` so we can achieve any voltage V between 0 and 5 volts.
 
-
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/potentio.png" alt="alt text" width="550"/> 
 
 
 ## Testing

@@ -104,6 +104,10 @@ We are now ready to wire our 7-segment display. We will start by wire the **LED 
 
 <img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/7-segment.png" alt="alt text" width="250"/> 
 
+For reference, following is the LED functionality table for testing:
+
+
+
 Using this truth table:
 
 <img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/IMG_7724.jpg" alt="alt text" width="550"/> 
@@ -196,10 +200,15 @@ For this step, we will need to use the 7486 XOR chip, a new 7432 OR chip, and re
 - Connect any point on the row of the un-inverted `B1` to gate `1B` of the second 7432 OR gate.
 - Connect the output gate `1Y` on the 7432 chip to the corresponding light like the diagram. Remember to reuse this output twice for both LEDs A and D, and also remember to connect both of them through a transistor.
 
-
-
-
 ## Testing
+
+- **For the first step:** After following the instructions described in step 1, we found that the analog input correctly converts the analog input into digital input using arduino. When using the analog input and sliding it to the right, we saw that the digital input switching accordingly in the computer that used the arduino code, as you can see in the video below.
+
+    [Analog to Digital Test](https://drive.google.com/file/d/1BLrT0ejpcy9QNPotIVF0K96MkQ4J8IKp/view?usp=sharing)
+
+- **For the second step:** After following the instructions described in step 1 to perform the B segment, we found out that the light of the B segment is correctly on when the analog input is between 0-4, and correctly off when the analog input is 5. This means that the steps we took were right and the K-Map we used to reduce the SOP expression helped us to get the right expression in order to perform the digital circuit for B. 
+
+
 
 ## Conclusion
 

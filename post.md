@@ -102,7 +102,7 @@ Load the program and test your circuit.
 
 We are now ready to wire our 7-segment display. We will start by wire the **LED B** first, and we will wire each LED as we go along the way through each step.
 
-<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/7-segment.png" alt="alt text" width="450"/> 
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/7-segment.png" alt="alt text" width="250"/> 
 
 Using this truth table:
 
@@ -114,7 +114,7 @@ We were able to build the following circuit:
 
 To determine the SOP (Sum of Products) expression necessary for lighting up LED B, we utilized K-Maps for each LED. Below, you will find the K-Map and the resulting SOP expression to activate LED B:
 
-<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20B.png" alt="alt text" width="550"/> 
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20B.png" alt="alt text" width="300"/> 
 
 As such, we will need a 7404 inverter for the NOT gate and one 7432 chip for the OR gate.
 

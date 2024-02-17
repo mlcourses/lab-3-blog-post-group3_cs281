@@ -50,7 +50,7 @@ To wire a potentiometer to the arduino:
 
 Your wires on the pot should look like this:
 
-
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/wiring.png" alt="alt text" width="550"/> 
 
 
 ## Testing

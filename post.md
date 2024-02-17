@@ -98,6 +98,18 @@ The above code:
 
 Load the program and test your circuit.
 
+### Step 2 - Wiring the 7-segment display 
+
+We are now ready to wire our 7-segment display. We will start by wire the **LED B** first, and we will wire each LED as we go along the way through each step.
+
+Using this truth table:
+
+
+
+We were able to build the following circuit:
+
+
+
 
 ## Testing
 

@@ -32,7 +32,7 @@ To achieve this goal, we will use the voltage divider.
 
 A voltage divider is an arrangement of resistors configured to create a target voltage.
 
-
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/Voltage%20divider.png" alt="alt text" width="550"/> 
 
 By choosing our two resistance values, we can pick any voltage V that we desire. Here, we will be using V = 5 volts, so with a voltage divider, we can pick between 0 and 5 volts.
 

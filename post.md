@@ -36,7 +36,9 @@ A voltage divider is an arrangement of resistors configured to create a target v
 
 By choosing our two resistance values, we can pick any voltage V that we desire. Here, we will be using V = 5 volts, so with a voltage divider, we can pick between 0 and 5 volts.
 
-Using the concept of a voltage divider, a potentiometer (“pot”) is a variable resistor that allows us to fine tune our voltage divider. Like the image below, the potentiometer allows us to vary the values of R1 and R2 so we can achieve any voltage V between 0 and 5 volts.
+Using the concept of a voltage divider, a potentiometer (“pot”) is a variable resistor that allows us to fine tune our voltage divider. Like the image below, the potentiometer allows us to vary the values of `R1` and `R2` so we can achieve any voltage V between 0 and 5 volts.
+
+
 
 
 ## Testing

@@ -114,7 +114,7 @@ We were able to build the following circuit:
 
 To determine the SOP (Sum of Products) expression necessary for lighting up LED B, we utilized K-Maps for each LED. Below, you will find the K-Map and the resulting SOP expression to activate LED B:
 
-LED B = B2 + B0
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20B.png" alt="alt text" width="550"/> 
 
 As such, we will need a 7404 inverter for the NOT gate and one 7432 chip for the OR gate.
 

@@ -52,6 +52,52 @@ Your wires on the pot should look like this:
 
 <img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/wiring.png" alt="alt text" width="550"/> 
 
+Now, connect the Arduino to a laptop, type the following Arduino program, compile it, and write it to the board.
+
+```c
+const int potpin = 0;
+const int WAIT = 1000; // 1 second delay
+void setup () {
+Serial.begin(9600);
+pinMode(11,OUTPUT);
+pinMode(12,OUTPUT);
+pinMode(13,OUTPUT);
+pinMode(potpin,INPUT);
+}
+void loop () {
+int val;
+int dval;
+int bitval;
+val = analogRead(potpin);
+dval = val/171; // normalizing factor-->adjust this to get the range you want
+Serial.print("From Pot: ");
+Serial.println(val);
+Serial.print("Decimal Value Conversion: ");
+Serial.println(dval);
+//use bit ops to get each bit!
+bitval = dval & 1;
+digitalWrite(11,bitval); // signal C
+dval = dval >> 1;
+bitval = dval & 1;
+digitalWrite(12,bitval); // signal B
+dval = dval >> 1;
+bitval = dval & 1;
+digitalWrite(13,bitval); // signal A
+delay(WAIT);
+}
+```
+
+The above code:
+
+- Connects a potentiometer to Arduino, linking its middle pin to analog input `A0` and its ground to the breadboard's GND.
+- Initiates serial communication at 9600 bps and configures digital pins 11, 12, and 13 as outputs, with the potentiometer pin as input.
+- Reads analog value from the potentiometer, normalizes it to a decimal value between 0 and 5 by dividing with a factor of 171.
+- Outputs the raw potentiometer value and the converted decimal value to the serial monitor.
+- Uses bitwise operations to isolate and output each bit of the decimal value to digital pins 11, 12, and 13, representing signals `C`, `B`, and `A` respectively.
+- Incorporates a one-second delay between readings for clear observation of changes.
+
+Load the program and test your circuit.
+
 
 ## Testing
 

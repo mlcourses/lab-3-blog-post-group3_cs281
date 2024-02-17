@@ -102,11 +102,11 @@ Load the program and test your circuit.
 
 We are now ready to wire our 7-segment display. We will start by wire the **LED B** first, and we will wire each LED as we go along the way through each step.
 
-<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/7-segment.png" alt="alt text" width="250"/> 
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/7-segment.png" alt="alt text" width="200"/> 
 
 For reference, following is the LED functionality table for testing:
 
-
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/table.png" alt="alt text" width="550"/> 
 
 Using this truth table:
 

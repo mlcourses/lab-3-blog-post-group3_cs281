@@ -127,9 +127,10 @@ And now we are ready to wire the first LED light:
 - From here, connect gate `1Y` and `3Y` (the two outputs) to gates `1A` and `1B`, respectively, of the 7432 OR chip.
 - Finally, connect the output from gate `1Y` of the chip to the 7-segment display. Before we do this, **PUT A RESISTOR BETWEEN EACH SEGMENT AND THE INPUT**. We have to do this to make sure that we don’t overload the display. An easy way to do this is to tie each pin to its own row through a resistor.
 - Make sure to **GROUND YOUR 7-SEGMENT DISPLAY**.
-- Follow the diagram below to connect the output to its corresponding lights we want: 
 
+Follow the diagram below to connect the output to its corresponding lights we want: 
 
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/design.png" alt="alt text" width="300"/> 
 
 
 ## Testing

@@ -134,7 +134,7 @@ Follow the diagram below to connect the output to its corresponding lights we wa
 
 ### Step 3: Lighting up LED C
 
-Next, we will light up LED C. Once again, from the truth table, we have the following K-Map and the resulting SOP expression to activate LED C:
+Once again, from the truth table, we have the following K-Map and the resulting SOP expression to activate LED C:
 
 <img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20C.png" alt="alt text" width="300"/> 
 
@@ -143,6 +143,59 @@ We will reuse the chips from the previous step:
 - Connect gate `2Y` to gate `2A` of the 7432 OR chip.
 - On the same row of gate `1A` of the 7404 inverter, connect a small wire on that row to another row. We will use this new row as the normal, un-inverted input `B0`. Connect any point on this row to gate `2B` of the 7432 OR chip.
 - Connect the output gate `2Y` on the 7432 OR chip to the corresponding light like the diagram. **Remember to connect them through a transistor**.
+
+### Step 4: Lighting up LED E
+
+Once again, from the truth table, we have the following K-Map and the resulting SOP expression to activate LED E:
+
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20E.png" alt="alt text" width="300"/> 
+
+We will use a new chip for this light. We will be using a 7408 chip for the AND gate:
+- Wire and ground the chip.
+- Reuse the outputs from step 1. Connect gates `1Y` and `3Y` of the 7404 inverter to gates `1A` and `1B` respectively on the 7408 AND chip.
+- Connect the output gate `1Y` on the 7408 AND chip to the corresponding light like the diagram. **Remember to connect them through a transistor**.
+
+### Step 5: Lighting up LED F
+
+Once again, from the truth table, we have the following K-Map and the resulting SOP expression to activate LED F:
+
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20F.png" alt="alt text" width="300"/> 
+
+We will reuse the chips and outputs from the previous steps:
+- Connect gates `1Y` and `2Y` to gates `2A` and `2B` of the 7408 AND chip.
+- Connect output gate `2Y` of the 7408 AND chip to gate `3A` of the 7432 OR chip.
+- Similarly like in step 3, on the same row of gate `3A` of the 7404 inverter, connect a small wire on that row to another row. We will use this new row as the normal, un-inverted input `B2`. Connect any point on this row to gate `3B` of the 7432 OR chip.
+- Connect the output gate `3Y` on the 7432 OR chip to the corresponding light like the diagram. **Remember to connect them through a transistor**.
+
+### Step 6: Lighting up LED G
+
+Once again, from the truth table, we have the following K-Map and the resulting SOP expression to activate LED G:
+
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20G.png" alt="alt text" width="300"/> 
+
+We will reuse the chips and outputs from the previous steps:
+- Similarly like in steps 3 and 5, on the same row of gate `2A` of the 7404 inverter, connect a small wire on that row to another row. We will use this new row as the normal, un-inverted input `B1`. Connect any point on this row to gate `4A` of the 7432 OR chip.
+- Connect any point on the row of the un-inverted `B2` input to gate `4B` of the 7432 OR chip.
+- Connect the output gate `4Y` on the 7432 OR chip to the corresponding light like the diagram. **Remember to connect them through a transistor**.
+
+### Step 7: Lighting up LEDs A and D
+
+Finally, we will light up LEDs A and D. Once again, from the truth table, we have the following K-Maps and the resulting SOP expressions to activate LEDs A and D:
+
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20A.png" alt="alt text" width="300"/> 
+
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20D.png" alt="alt text" width="300"/> 
+
+Notice that LEDs A and D share the same SOP expression, so we only need to build one circuit for this, and reuse the output twice for both LEDs.
+
+For this step, we will need to use the 7486 XOR chip, a new 7432 OR chip, and reuse some chips and outputs from the previous steps:
+- Wire and ground the chips.
+- Connect any point on the rows of the un-inverted `B2` and `B0` inputs to gates `1B` and `1A`, respectively, of the 7486 XOR chip.
+- Connect output gate `1Y` of the 7486 XOR chip to gate `4A` of the 7404 inverter.
+- Connect output gate `4Y` of the 7404 inverter to gate `1A` of the second 7432 OR gate.
+- Connect any point on the row of the un-inverted `B1` to gate `1B` of the second 7432 OR gate.
+- Connect the output gate `1Y` on the 7432 chip to the corresponding light like the diagram. Remember to reuse this output twice for both LEDs A and D, and also remember to connect both of them through a transistor.
+
 
 
 

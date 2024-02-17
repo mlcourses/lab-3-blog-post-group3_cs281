@@ -132,6 +132,19 @@ Follow the diagram below to connect the output to its corresponding lights we wa
 
 <img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/design.png" alt="alt text" width="300"/> 
 
+### Step 3: Lighting up LED C
+
+Next, we will light up LED C. Once again, from the truth table, we have the following K-Map and the resulting SOP expression to activate LED C:
+
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20C.png" alt="alt text" width="300"/> 
+
+We will reuse the chips from the previous step:
+- Connect pin 12 on the Arduino (`B1`) to gate `2A` of the 7404 inverter.
+- Connect gate `2Y` to gate `2A` of the 7432 OR chip.
+- On the same row of gate `1A` of the 7404 inverter, connect a small wire on that row to another row. We will use this new row as the normal, un-inverted input `B0`. Connect any point on this row to gate `2B` of the 7432 OR chip.
+- Connect the output gate `2Y` on the 7432 OR chip to the corresponding light like the diagram. **Remember to connect them through a transistor**.
+
+
 
 ## Testing
 

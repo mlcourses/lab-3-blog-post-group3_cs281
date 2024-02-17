@@ -40,6 +40,18 @@ Using the concept of a voltage divider, a potentiometer (“pot”) is a variabl
 
 <img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/potentio.png" alt="alt text" width="550"/> 
 
+Our breadboards have two potentiometers, and we will be using the 10k potentiometer.
+
+To wire a potentiometer to the arduino:
+- The leftmost connection column of the pot will be wired to GND
+- The rightmost column of the pot will be wired to +5V
+- Wire one of the middle connections to *<ins>analog input pin 0 (**not digital pin 0**)* on the Arduino. This is how the output signal V from the pot will be fed to the Arduino.
+- Remember to **CONNECT YOUR ARDUINO TO THE BREADBOARD VIA GND**.
+
+Your wires on the pot should look like this:
+
+
+
 
 ## Testing
 

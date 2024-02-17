@@ -208,7 +208,31 @@ For this step, we will need to use the 7486 XOR chip, a new 7432 OR chip, and re
 
 - **For the second step:** After following the instructions described in step 1 to perform the B segment, we found out that the light of the B segment is correctly on when the analog input is between 0-4, and correctly off when the analog input is 5. This means that the steps we took were right and the K-Map we used to reduce the SOP expression helped us to get the right expression in order to perform the digital circuit for B. 
 
+    [LED B](https://drive.google.com/file/d/1N9dXuz-IEJQ0ioLYqwcgS-USWrzfAkdV/view?usp=sharing)
 
+- **For the third step:** After following the instructions described in step 1 to perform the C segment, we found out that the light of the C segment is correctly on when the analog input is 0,1,3,4 and 5, and correctly off when the analog input is 2. This means that the steps we took were right and the K-Map we used to reduce the SOP expression helped us to get the right expression in order to perform the digital circuit for C.
+
+    [LED C](https://drive.google.com/file/d/15_XhrI5EPNUJ7y-NmflAwXvYtTtIIT_5/view?usp=sharing)
+
+- **For the fourth step:** After following the instructions described in step 1 to perform the E segment, we found out that the light of the E segment is correctly on when the analog input is 0 and 2 and correctly off when the analog input is 1,3,4 and 5. This means that the steps we took were right and the K-Map we used to reduce the SOP expression helped us to get the right expression in order to perform the digital circuit for E.
+
+    [LED E](https://drive.google.com/file/d/1GcQgfObOXNqkvy0AnheIQKijr65ZvTGY/view?usp=sharing)
+
+- **For the fifth step:** After following the instructions described in step 1 to perform the F segment, we found out that the light of the F segment is correctly on when the analog input is 0,4 and 5 and correctly off when the analog input is 1,2, and 3. This means that the steps we took were right and the K-Map we used to reduce the SOP expression helped us to get the right expression in order to perform the digital circuit for F.
+
+    [LED F](https://drive.google.com/file/d/14Jek7hG8vOtHKoT1yxMLghT8idrbiItP/view?usp=sharing)
+
+- **For the sixth step:** After following the instructions described in step 1 to perform the G segment, we found out that the light of the G segment is correctly on when the analog input is 2,3,4 and 5 and correctly off when the analog input is 0 and 1. This means that the steps we took were right and the K-Map we used to reduce the SOP expression helped us to get the right expression in order to perform the digital circuit for G.
+
+    [LED G](https://drive.google.com/file/d/1gq1jbODvl0pPVR5PBpXOyzxt-j5bNS3e/view?usp=sharing)
+
+- **For the seventh step:** After following the instructions described in step 1 to perform the A and D segment, we found out that the light of the A and D segment is correctly on when the analog input is 0,2,3,5 and correctly off when the analog input is 1 and 4. This means that the steps we took were right and the the K-Map we used to reduce the SOP expression helped us to get the right expression in order to perform the digital circuits for A and D.
+
+    [LEDs A and D](https://drive.google.com/file/d/12xSz-r9K1N-8Ukt-0Fw_llIYHg9soq4I/view?usp=sharing)
+
+- **For the final step:** After testing the whole 7-segment number using the analog input we found that all the numbers are correctly performed as they should according to the current input of the analog input. You can view the final testing in the video below.
+
+    [Final Test](https://drive.google.com/file/d/1KI66cSP4xl619u0_rlAEA7bCeUy9tb0C/view?usp=sharing)
 
 ## Conclusion
 

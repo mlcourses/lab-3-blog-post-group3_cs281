@@ -118,6 +118,18 @@ To determine the SOP (Sum of Products) expression necessary for lighting up LED 
 
 As such, we will need a 7404 inverter for the NOT gate and one 7432 chip for the OR gate.
 
+And now we are ready to wire the first LED light:
+- Put the chips accordingly like the circuit on the breadboard.
+- Wire and ground the chips.
+- Input for `B2` will be from output pin 13 of the Arduino, `B1` will be from pin 12, and `B0` will be from pin 11.
+- We would want to reuse the chips without overusing too many of them, so we would optimize and utilize **ALL GATES** of all of the chips.
+- Connect pin 13 on the Arduino (`B2`) to gate `3A` of the 7404 inverter, and connect pin 11 (`B0`) to gate `1A` of the inverter. 
+- From here, connect gate `1Y` and `3Y` (the two outputs) to gates `1A` and `1B`, respectively, of the 7432 OR chip.
+- Finally, connect the output from gate `1Y` of the chip to the 7-segment display. Before we do this, **PUT A RESISTOR BETWEEN EACH SEGMENT AND THE INPUT**. We have to do this to make sure that we don’t overload the display. An easy way to do this is to tie each pin to its own row through a resistor.
+- Make sure to **GROUND YOUR 7-SEGMENT DISPLAY**.
+- Follow the diagram below to connect the output to its corresponding lights we want: 
+
+
 
 
 ## Testing

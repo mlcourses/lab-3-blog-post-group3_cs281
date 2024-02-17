@@ -108,7 +108,7 @@ Using this truth table:
 
 We were able to build the following circuit:
 
-
+<img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/D15A342E-E1D0-4C78-B1C1-B332B5DAC9EA.JPG" alt="alt text" width="550"/> 
 
 
 

@@ -1,6 +1,5 @@
 # Lab 3: Crafting a 7-Segment Ramp Circuit
 
-
 ## Overview and Motivation
 In this week's lab, we will use an analog input to display a number on a 7-segment display. A 7-segment display contains 7 leds that are arranged to form a number. We will design and build a more complex combinational circuit to display a number corresponding to an analog input. Given the complexity of this circuit, we will use K-maps in order to minimize our circuit expressions so it will be simpler for us to build the circuits that will help us perform the 7-segment using analog input.
 
@@ -228,7 +227,7 @@ For this step, we will need to use the 7486 XOR chip, a new 7432 OR chip, and re
 
 - **For the seventh step:** After following the instructions described in step 1 to perform the A and D segment, we found out that the light of the A and D segment is correctly on when the analog input is 0,2,3,5 and correctly off when the analog input is 1 and 4. This means that the steps we took were right and the the K-Map we used to reduce the SOP expression helped us to get the right expression in order to perform the digital circuits for A and D.
 
-    [LEDs A and D](https://drive.google.com/file/d/12xSz-r9K1N-8Ukt-0Fw_llIYHg9soq4I/view?usp=sharing)
+    [LEDs A and D](https://drive.google.com/file/d/1GcQgfObOXNqkvy0AnheIQKijr65ZvTGY/view?usp=sharing)
 
 - **For the final step:** After testing the whole 7-segment number using the analog input we found that all the numbers are correctly performed as they should according to the current input of the analog input. You can view the final testing in the video below.
 
@@ -236,6 +235,7 @@ For this step, we will need to use the 7486 XOR chip, a new 7432 OR chip, and re
 
 ## Conclusion
 
+In this lab, we combined analog and digital techniques to control a 7-segment display, turning analog input into visible numbers. By using tools like Karnaugh Maps for simplification, we built a circuit that changes with the analog input. This experience not only taught us about electronics but also showed us how to make complex ideas simpler and bring them to reality. This lab has given us valuable skills and confidence to tackle more advanced projects in electronics and technology.
 
 
 

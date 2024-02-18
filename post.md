@@ -189,6 +189,10 @@ Finally, we will light up LEDs A and D. Once again, from the truth table, we hav
 
 <img src="https://github.com/mlcourses/lab-3-blog-post-group3_cs281/blob/main/assets/LED%20D.png" alt="alt text" width="300"/> 
 
+We further simplied the SOP expression to:
+
+LED A = LED D = ~B0 ⊕ ~B2 + B1
+
 Notice that LEDs A and D share the same SOP expression, so we only need to build one circuit for this, and reuse the output twice for both LEDs.
 
 For this step, we will need to use the 7486 XOR chip, a new 7432 OR chip, and reuse some chips and outputs from the previous steps:
